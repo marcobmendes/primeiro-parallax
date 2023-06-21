@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    background-color: #BFBFBF;
+    color: rgb(221,221,221);
+    text-align: center;
+}
+a {
+    color: rgb(221, 221, 221);    
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+p {
+    margin: auto;
+    text-align: center;  
+      
+}
+ul {
+    text-align: initial;
+    margin: auto;
+    width: 18em;
+}
+div {
+    background-color: #404040;
+    border: 1px solid black;
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 18em;
+    box-shadow: 5px 5px 15px black;
+}
+.voltar {
+    font-size: 40px;
+    text-decoration: none;
+}

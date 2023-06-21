@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(102, 102, 102);
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+p {
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+}
+
+.partext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.partext .border {
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    opacity: 1;    
+}
+.reftext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.reftext .border {
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    opacity: 1;    
+}
+.partext .border.trans{
+    background-color: transparent;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+.vimg, .boy, .placa {
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.vimg {
+    background-image: url(img/vimg.jpg);
+    min-height: 100%;
+}
+.placa {
+    background-image: url(img/placa.jpg);
+    min-height: 400px;
+    background-position: center;
+}
+.boy {
+    background-image: url(img/boy.jpg);
+    min-height: 400px;
+}
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-clara1 {
+    color: rgb(102, 102, 102);
+    text-align: center;
+    margin: 50px 80px;
+}
+.section-escura1 {
+    background-color: rgb(40, 46, 52);
+    color: rgb(221, 221, 221);
+}
