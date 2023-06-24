@@ -32,10 +32,12 @@ div {
     background-color: #404040;
     border: 1px solid black;
     max-width: 800px;
-    border-radius: 10px;
+    position: absolute;
     padding: 10px;
-    margin: auto;
-    margin-top: 18em;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     box-shadow: 5px 5px 15px black;
 }
 .voltar {
