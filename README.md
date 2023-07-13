@@ -1,4 +1,4 @@
-# primeiro-parallax
+# Primeiro-Parallax
 
 Esse site foi feito no intuito de demonstrar minhas habilidades iniciais para ser apresentado como meu primeiro projeto desenvolvido em HTML e CSS em meu portifólio, a ideia foi tirada do vídeo do canal Atekita Dev no qual ela apresenta desafios para desenvolvedores iniciantes que estão procurando mostrar seus conhecimentos.
 
